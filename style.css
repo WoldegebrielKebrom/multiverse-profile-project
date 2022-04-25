@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+nav {
+    padding: 5em;
+}
+
+p , li{
+    font-family: "Trirong", serif;
+}
+
+#index-sec {
+    height: 100vh;
+    background-image: url(./images/SpaceNeedle-Mt.Rainier.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bio-section {
+    padding: 2%;
+    display: flex;
+}
+
+#bio-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 1px 1px 1px 2px;
+    
+}
+
+@media only screen and (max-width: 900px) {
+    #about-me {
+        margin-top: 0% !important; 
+    }
+
+    #bio-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
