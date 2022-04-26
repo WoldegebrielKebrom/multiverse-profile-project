@@ -37,22 +37,16 @@ p , li{
     
 }
 
-@media only screen and (max-width: 1200px) {
-    #about-me {
-        margin-top: 0% !important; 
-        text-align: center !important;
-    }
 
-    #bio-section {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
 
   .experience {
       font-size: 2em;
-      padding: 3%;
+      margin-left: 3%;
+      margin-right: 3%;
+      padding-top: 3%;
       color: lightcyan;
+      border-bottom: 2px solid lightcyan;
+
 
   }
 
@@ -62,7 +56,9 @@ p , li{
 
   .experience-list {
       display: flex;
+      flex-wrap: wrap-reverse;
       justify-content: space-between;
+
   }
 
  
@@ -73,6 +69,19 @@ p , li{
     background-size: cover;
     background-attachment: fixed;
   
+  }
+
+
+  @media only screen and (max-width: 1200px) {
+    #about-me {
+        margin-top: 0% !important; 
+        text-align: center !important;
+    }
+
+    #bio-section {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   
