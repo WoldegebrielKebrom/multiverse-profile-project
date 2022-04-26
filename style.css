@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
+html { 
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 
 nav {
     padding: 5em;
@@ -42,11 +50,31 @@ p , li{
   }
 
   .experience {
+      font-size: 2em;
       padding: 3%;
+      color: lightcyan;
+
+  }
+
+  .title {
+      color: darkblue;
   }
 
   .experience-list {
       display: flex;
       justify-content: space-between;
   }
+
+ 
+
+  #exp-sec {
+   
+    background-image: url(./images/tnc_97405372_preview_cropped.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+  
+  }
+
+  
+
 
