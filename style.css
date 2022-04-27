@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-html { 
-    background: url(images/bg.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
 
 
 nav {
@@ -71,6 +64,36 @@ p , li{
   
   }
 
+  #portfolio-sect {
+      background-image: url(./images/GettyImages-5970080731-59b7f67f03f40200100c2353.jpg);
+      background-size: cover;
+
+  }
+
+  #outer{
+    padding: 1%;
+    display: flex;
+  }
+
+
+  .portfolio {
+      margin: 0.2%;
+    width: 33.333%;
+    
+  }
+
+  .portfolio img {
+      display: block;
+      width: 100%;
+      height: auto;
+  }
+
+  .portfolio-des {
+    background-color: white;
+    opacity: 0.8;
+  }
+
+
 
   @media only screen and (max-width: 1200px) {
     #about-me {
@@ -82,6 +105,25 @@ p , li{
       flex-direction: column;
       align-items: center;
     }
+
+    #outer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .portfolio {
+        margin: 0.2%;
+      width: 100%;
+    }
+
+    #portfolio-sect {
+        background-attachment: fixed;
+  
+    }
+
+
+
   }
 
   
